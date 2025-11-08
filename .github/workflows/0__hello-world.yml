@@ -6,7 +6,7 @@ on:
   pull_request:  # Przy tworzeniu pull request
   workflow_dispatch:  # Przy ręcznym uruchomieniu workflow
   schedule:
-    - cron: '30 19 * * *' # uruchamia się o 19:30, struktura cron: minuta, godzina, dzień miesiąca, miesiąc, dzień tygodnia
+    - cron: '30 13 * * *' # uruchamia się o 19:30, struktura cron: minuta, godzina, dzień miesiąca, miesiąc, dzień tygodnia
 
 
 # Co działa workflow?
